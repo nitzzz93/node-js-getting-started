@@ -1,0 +1,12 @@
+
+<table class="table table-bordered table-hover">
+    <tr><th>Job Title</th><th>Location</th><th>Job Description</th><th>Apply</th></tr>
+    <tr ng-repeat="message in messages | orderBy:sortType:sortReverse | filter: searchFish">
+        <td>{{message.title}}</td>
+        <td>{{message.location}}</td>
+        <td>{{message.description}}</td>
+        <td><button class="btn btn-primary" ng-click="apply(message.jid)">Apply</button></td>
+    </tr>
+</table>
+</div>
+<button ng-click="back()">back</button>
