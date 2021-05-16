@@ -6,6 +6,10 @@ app.config(['$routeProvider','$locationProvider', function($routeProvider, $loca
             templateUrl: './login.html',
             controller: 'loginCntrl'
         })
+        .when('/register', {
+            templateUrl: './register.html',
+            controller: 'regCntrl'
+        })
         .when('/home', {
             templateUrl: './home.html',
             controller: 'homeCntrl',

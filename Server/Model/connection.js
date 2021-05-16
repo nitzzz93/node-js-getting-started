@@ -7,7 +7,6 @@ const connectionOptions = {
   password: 'b3d90689',
   database: 'heroku_69c9061e80683c9',
 };
-var con = mySQL.createConnection(dbURL || connectionOptions);
-
+var con  = mySQL.createPool(connectionOptions);
 
 module.exports = con;
