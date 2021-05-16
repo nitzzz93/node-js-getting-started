@@ -4,7 +4,7 @@ const {
   MSG_DATA_INSUFFICIENT_ERROR,
   MSG_INVALID_CREDS,
 } = require('../Utility/Message');
-const User = require('../model/User');
+const User = require('../Model/User');
 const Candidate = require('../Model/Candidate');
 const Recruiter = require('../Model/Recruiter');
 const Job = require('../Model/Job');
