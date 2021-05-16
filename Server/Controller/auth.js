@@ -1,5 +1,5 @@
 const express = require('express');
-const User  = require('../model/User');
+const User  = require('../Model/User');
 const {
   MSG_INVALID_TOKEN,
   MSG_INVALID_CREDS,

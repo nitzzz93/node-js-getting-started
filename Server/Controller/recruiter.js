@@ -5,10 +5,10 @@ const {
   MSG_INVALID_CREDS,
 } = require('../Utility/Message');
 const User = require('../model/User');
-const Candidate = require('../model/Candidate');
-const Recruiter = require('../model/Recruiter');
-const Job = require('../model/Job');
-const JobApplication = require('../model/JobApplication');
+const Candidate = require('../Model/Candidate');
+const Recruiter = require('../Model/Recruiter');
+const Job = require('../Model/Job');
+const JobApplication = require('../Model/JobApplication');
 
 const router = express.Router();
 

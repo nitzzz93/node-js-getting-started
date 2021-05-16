@@ -4,9 +4,9 @@ const {
   MSG_DATA_INSUFFICIENT_ERROR,
   MSG_INVALID_CREDS,
 } = require('../Utility/Message');
-const User = require('../model/User');
-const Job = require('../model/Job');
-const Recruiter = require('../model/Recruiter');
+const User = require('../Model/User');
+const Job = require('../Model/Job');
+const Recruiter = require('../Model/Recruiter');
 
 const router = express.Router();
 

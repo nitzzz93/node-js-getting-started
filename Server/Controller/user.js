@@ -1,7 +1,7 @@
 const express = require('express');
 const {
    User, Candidate, Recruiter,
-} = require('../model');
+} = require('../Model');
 const {
   MSG_DATA_INSUFFICIENT_ERROR,
   MSG_DUPLICATE_EMAIL_ERROR,
